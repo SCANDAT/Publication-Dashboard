@@ -1,0 +1,43 @@
+Cohort,Model,Outcome,Weekday calculation
+Primary cohort,BASE,MAP,Recalculated fixed effects
+Primary cohort,BASE,SBP,Recalculated fixed effects
+Primary cohort,BASE,DBP,Recalculated fixed effects
+Primary cohort,BASE,Heart rate,Recalculated fixed effects
+Primary cohort,BASE,FiO2,Recalculated fixed effects
+Primary cohort,BASE,SpO2,Recalculated fixed effects
+Primary cohort,BASE,Minute ventilation,Recalculated fixed effects
+Primary cohort,FULL,MAP,Recalculated fixed effects
+Primary cohort,FULL,SBP,Recalculated fixed effects
+Primary cohort,FULL,DBP,Recalculated fixed effects
+Primary cohort,FULL,Heart rate,Recalculated fixed effects
+Primary cohort,FULL,FiO2,Recalculated fixed effects
+Primary cohort,FULL,SpO2,Recalculated fixed effects
+Primary cohort,FULL,Minute ventilation,Recalculated fixed effects
+First eligible event per patient,BASE,MAP,Retained original weekday contrasts
+First eligible event per patient,BASE,SBP,Retained original weekday contrasts
+First eligible event per patient,BASE,DBP,Retained original weekday contrasts
+First eligible event per patient,BASE,Heart rate,Retained original weekday contrasts
+First eligible event per patient,BASE,FiO2,Retained original weekday contrasts
+First eligible event per patient,BASE,SpO2,Retained original weekday contrasts
+First eligible event per patient,BASE,Minute ventilation,Retained original weekday contrasts
+First eligible event per patient,FULL,MAP,Retained original weekday contrasts
+First eligible event per patient,FULL,SBP,Retained original weekday contrasts
+First eligible event per patient,FULL,DBP,Retained original weekday contrasts
+First eligible event per patient,FULL,Heart rate,Retained original weekday contrasts
+First eligible event per patient,FULL,FiO2,Retained original weekday contrasts
+First eligible event per patient,FULL,SpO2,Retained original weekday contrasts
+First eligible event per patient,FULL,Minute ventilation,Retained original weekday contrasts
+No further recorded RBC transfusion within 12 hours,BASE,MAP,Retained original fixed effects
+No further recorded RBC transfusion within 12 hours,BASE,SBP,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,BASE,DBP,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,BASE,Heart rate,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,BASE,FiO2,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,BASE,SpO2,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,BASE,Minute ventilation,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,FULL,MAP,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,FULL,SBP,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,FULL,DBP,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,FULL,Heart rate,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,FULL,FiO2,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,FULL,SpO2,Recalculated fixed effects
+No further recorded RBC transfusion within 12 hours,FULL,Minute ventilation,Recalculated fixed effects

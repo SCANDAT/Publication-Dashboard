@@ -1,0 +1,108 @@
+.main-results-table {
+  margin: 2.25rem 0 1.5rem;
+}
+.main-results-table h2 {
+  font-size: 1.18rem;
+  line-height: 1.4;
+  margin: 0;
+}
+.result-table-status {
+  margin-top: 0.65rem;
+  color: var(--table-note-color);
+  font-size: 0.85rem;
+}
+.result-table-status p {
+  margin: 0.25rem 0;
+}
+.main-results-table .table-scroll {
+  margin-top: 0.9rem;
+  overflow-x: auto;
+  background: var(--table-surface);
+  border: 1px solid var(--table-border);
+  border-radius: 5px;
+}
+.outcome-results {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.84rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.35;
+}
+.outcome-results th,
+.outcome-results td {
+  padding: 0.7rem 0.55rem;
+  text-align: center;
+  border-bottom: 1px solid var(--table-rule);
+}
+.outcome-results thead th {
+  background: var(--table-heading-background);
+  color: var(--table-heading-color);
+  font-weight: 600;
+}
+.outcome-results thead tr:last-child th {
+  vertical-align: top;
+  white-space: nowrap;
+}
+.outcome-results th[scope='colgroup'] {
+  padding-block: 0.55rem;
+}
+.outcome-results th[scope='colgroup'],
+.outcome-results .model-start {
+  border-left: 1px solid var(--table-border);
+}
+.outcome-results thead th span,
+.outcome-results .outcome-unit,
+.outcome-results .estimate-detail {
+  display: block;
+  font-weight: 400;
+}
+.outcome-results th[scope='row'],
+.outcome-results th[rowspan] {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  text-align: left;
+  width: 14rem;
+  white-space: nowrap;
+  padding-left: 0.8rem;
+  box-shadow: 1px 0 var(--table-border);
+}
+.outcome-results th[scope='row'] {
+  background: var(--table-surface);
+  font-weight: 500;
+}
+.outcome-results th[rowspan] {
+  vertical-align: middle;
+}
+.outcome-results td,
+.outcome-results .outcome-unit {
+  white-space: nowrap;
+}
+.outcome-results .outcome-unit,
+.outcome-results .estimate-detail {
+  margin-top: 0.15rem;
+  color: var(--table-note-color);
+  font-size: 0.78rem;
+}
+.outcome-results tbody tr:last-child > * {
+  border-bottom-color: transparent;
+}
+.result-table-notes {
+  width: 100%;
+}
+.result-table-note {
+  margin: 0.65rem 0;
+  color: var(--table-note-color);
+  font-size: 0.82rem;
+}
+@media (max-width: 720px) {
+  .outcome-results th,
+  .outcome-results td {
+    padding: 0.55rem 0.5rem;
+  }
+  .outcome-results th[scope='row'],
+  .outcome-results th[rowspan] {
+    width: 1%;
+  }
+}
